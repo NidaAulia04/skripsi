@@ -1,0 +1,137 @@
+Provinsi,Tahun,TPT,TPT Actual,TPT NBC,TPT SVM
+ACEH,2020,6.59,Tinggi,Tinggi,Tinggi
+SUMATERA UTARA,2020,6.91,Tinggi,Tinggi,Rendah
+SUMATERA BARAT,2020,6.88,Tinggi,Tinggi,Rendah
+RIAU,2020,6.32,Tinggi,Tinggi,Tinggi
+JAMBI,2020,5.13,Tinggi,Tinggi,Rendah
+SUMATERA SELATAN,2020,5.51,Tinggi,Rendah,Rendah
+BENGKULU,2020,4.07,Rendah,Rendah,Rendah
+LAMPUNG,2020,4.67,Rendah,Rendah,Rendah
+KEP. BANGKA BELITUNG,2020,5.25,Tinggi,Tinggi,Tinggi
+KEP. RIAU,2020,10.34,Tinggi,Tinggi,Tinggi
+DKI JAKARTA,2020,10.95,Tinggi,Tinggi,Tinggi
+JAWA BARAT,2020,10.46,Tinggi,Tinggi,Tinggi
+JAWA TENGAH,2020,6.48,Tinggi,Tinggi,Tinggi
+DI YOGYAKARTA,2020,4.57,Rendah,Tinggi,Rendah
+JAWA TIMUR,2020,5.84,Tinggi,Tinggi,Rendah
+BANTEN,2020,10.64,Tinggi,Tinggi,Tinggi
+BALI,2020,5.63,Tinggi,Tinggi,Rendah
+NUSA TENGGARA BARAT,2020,4.22,Rendah,Rendah,Rendah
+NUSA TENGGARA TIMUR,2020,4.28,Rendah,Rendah,Rendah
+KALIMANTAN BARAT,2020,5.81,Tinggi,Rendah,Rendah
+KALIMANTAN TENGAH,2020,4.58,Rendah,Tinggi,Rendah
+KALIMANTAN SELATAN,2020,4.74,Rendah,Tinggi,Rendah
+KALIMANTAN TIMUR,2020,6.87,Tinggi,Tinggi,Tinggi
+KALIMANTAN UTARA,2020,4.97,Tinggi,Tinggi,Tinggi
+SULAWESI UTARA,2020,7.37,Tinggi,Tinggi,Tinggi
+SULAWESI TENGAH,2020,3.77,Rendah,Rendah,Rendah
+SULAWESI SELATAN,2020,6.31,Tinggi,Tinggi,Tinggi
+SULAWESI TENGGARA,2020,4.58,Rendah,Tinggi,Rendah
+GORONTALO,2020,4.28,Rendah,Rendah,Tinggi
+SULAWESI BARAT,2020,3.32,Rendah,Rendah,Rendah
+MALUKU,2020,7.57,Tinggi,Tinggi,Tinggi
+MALUKU UTARA,2020,5.15,Tinggi,Tinggi,Tinggi
+PAPUA BARAT,2020,6.8,Tinggi,Rendah,Tinggi
+PAPUA,2020,4.28,Rendah,Rendah,Rendah
+ACEH,2021,6.3,Tinggi,Tinggi,Tinggi
+SUMATERA UTARA,2021,6.33,Tinggi,Tinggi,Rendah
+SUMATERA BARAT,2021,6.52,Tinggi,Tinggi,Rendah
+RIAU,2021,4.42,Rendah,Tinggi,Tinggi
+JAMBI,2021,5.09,Tinggi,Tinggi,Tinggi
+SUMATERA SELATAN,2021,4.98,Tinggi,Tinggi,Tinggi
+BENGKULU,2021,3.65,Rendah,Rendah,Rendah
+LAMPUNG,2021,4.69,Rendah,Rendah,Rendah
+KEP. BANGKA BELITUNG,2021,5.03,Tinggi,Tinggi,Tinggi
+KEP. RIAU,2021,9.91,Tinggi,Tinggi,Tinggi
+DKI JAKARTA,2021,8.5,Tinggi,Tinggi,Tinggi
+JAWA BARAT,2021,9.82,Tinggi,Tinggi,Tinggi
+JAWA TENGAH,2021,5.95,Tinggi,Tinggi,Tinggi
+DI YOGYAKARTA,2021,4.56,Rendah,Tinggi,Rendah
+JAWA TIMUR,2021,5.74,Tinggi,Tinggi,Rendah
+BANTEN,2021,8.98,Tinggi,Tinggi,Tinggi
+BALI,2021,5.37,Tinggi,Tinggi,Rendah
+NUSA TENGGARA BARAT,2021,3.01,Rendah,Rendah,Rendah
+NUSA TENGGARA TIMUR,2021,3.77,Rendah,Rendah,Rendah
+KALIMANTAN BARAT,2021,5.82,Tinggi,Rendah,Rendah
+KALIMANTAN TENGAH,2021,4.53,Rendah,Tinggi,Rendah
+KALIMANTAN SELATAN,2021,4.95,Rendah,Tinggi,Rendah
+KALIMANTAN TIMUR,2021,6.83,Tinggi,Tinggi,Tinggi
+KALIMANTAN UTARA,2021,4.58,Rendah,Tinggi,Tinggi
+SULAWESI UTARA,2021,7.06,Tinggi,Tinggi,Tinggi
+SULAWESI TENGAH,2021,3.75,Rendah,Rendah,Rendah
+SULAWESI SELATAN,2021,5.72,Tinggi,Tinggi,Tinggi
+SULAWESI TENGGARA,2021,3.92,Rendah,Tinggi,Rendah
+GORONTALO,2021,3.01,Rendah,Rendah,Tinggi
+SULAWESI BARAT,2021,3.13,Rendah,Rendah,Rendah
+MALUKU,2021,6.93,Tinggi,Tinggi,Tinggi
+MALUKU UTARA,2021,4.71,Rendah,Tinggi,Rendah
+PAPUA BARAT,2021,5.84,Tinggi,Rendah,Tinggi
+PAPUA,2021,3.33,Rendah,Rendah,Rendah
+ACEH,2022,6.17,Tinggi,Tinggi,Tinggi
+SUMATERA UTARA,2022,6.16,Tinggi,Tinggi,Rendah
+SUMATERA BARAT,2022,6.28,Tinggi,Tinggi,Rendah
+RIAU,2022,4.37,Rendah,Tinggi,Tinggi
+JAMBI,2022,4.59,Rendah,Tinggi,Rendah
+SUMATERA SELATAN,2022,4.63,Rendah,Tinggi,Rendah
+BENGKULU,2022,3.59,Rendah,Tinggi,Rendah
+LAMPUNG,2022,4.52,Rendah,Rendah,Rendah
+KEP. BANGKA BELITUNG,2022,4.77,Rendah,Tinggi,Tinggi
+KEP. RIAU,2022,8.23,Tinggi,Tinggi,Tinggi
+DKI JAKARTA,2022,7.18,Tinggi,Tinggi,Tinggi
+JAWA BARAT,2022,8.31,Tinggi,Tinggi,Tinggi
+JAWA TENGAH,2022,5.57,Tinggi,Tinggi,Rendah
+DI YOGYAKARTA,2022,4.06,Rendah,Tinggi,Rendah
+JAWA TIMUR,2022,5.49,Tinggi,Tinggi,Rendah
+BANTEN,2022,8.09,Tinggi,Tinggi,Tinggi
+BALI,2022,4.8,Rendah,Tinggi,Rendah
+NUSA TENGGARA BARAT,2022,2.89,Rendah,Rendah,Rendah
+NUSA TENGGARA TIMUR,2022,3.54,Rendah,Rendah,Rendah
+KALIMANTAN BARAT,2022,5.11,Tinggi,Rendah,Rendah
+KALIMANTAN TENGAH,2022,4.26,Rendah,Tinggi,Tinggi
+KALIMANTAN SELATAN,2022,4.74,Rendah,Tinggi,Rendah
+KALIMANTAN TIMUR,2022,5.71,Tinggi,Tinggi,Tinggi
+KALIMANTAN UTARA,2022,4.33,Rendah,Tinggi,Tinggi
+SULAWESI UTARA,2022,6.61,Tinggi,Tinggi,Tinggi
+SULAWESI TENGAH,2022,3.0,Rendah,Rendah,Rendah
+SULAWESI SELATAN,2022,4.51,Rendah,Tinggi,Rendah
+SULAWESI TENGGARA,2022,3.36,Rendah,Tinggi,Rendah
+GORONTALO,2022,2.58,Rendah,Rendah,Rendah
+SULAWESI BARAT,2022,2.34,Rendah,Rendah,Rendah
+MALUKU,2022,6.88,Tinggi,Tinggi,Tinggi
+MALUKU UTARA,2022,3.98,Rendah,Tinggi,Rendah
+PAPUA BARAT,2022,5.37,Tinggi,Rendah,Tinggi
+PAPUA,2022,2.83,Rendah,Rendah,Rendah
+ACEH,2023,6.03,Tinggi,Tinggi,Tinggi
+SUMATERA UTARA,2023,5.89,Tinggi,Tinggi,Rendah
+SUMATERA BARAT,2023,5.94,Tinggi,Tinggi,Rendah
+RIAU,2023,4.23,Rendah,Tinggi,Tinggi
+JAMBI,2023,4.53,Rendah,Tinggi,Rendah
+SUMATERA SELATAN,2023,4.11,Rendah,Tinggi,Rendah
+BENGKULU,2023,3.42,Rendah,Tinggi,Rendah
+LAMPUNG,2023,4.23,Rendah,Rendah,Rendah
+KEP. BANGKA BELITUNG,2023,4.56,Rendah,Tinggi,Rendah
+KEP. RIAU,2023,6.8,Tinggi,Tinggi,Tinggi
+DKI JAKARTA,2023,6.53,Tinggi,Tinggi,Tinggi
+JAWA BARAT,2023,7.44,Tinggi,Tinggi,Tinggi
+JAWA TENGAH,2023,5.13,Tinggi,Tinggi,Rendah
+DI YOGYAKARTA,2023,3.69,Rendah,Tinggi,Rendah
+JAWA TIMUR,2023,4.88,Rendah,Tinggi,Rendah
+BANTEN,2023,7.52,Tinggi,Tinggi,Tinggi
+BALI,2023,2.69,Rendah,Rendah,Rendah
+NUSA TENGGARA BARAT,2023,2.8,Rendah,Rendah,Rendah
+NUSA TENGGARA TIMUR,2023,3.14,Rendah,Rendah,Rendah
+KALIMANTAN BARAT,2023,5.05,Tinggi,Rendah,Rendah
+KALIMANTAN TENGAH,2023,4.1,Rendah,Tinggi,Rendah
+KALIMANTAN SELATAN,2023,4.31,Rendah,Tinggi,Rendah
+KALIMANTAN TIMUR,2023,5.31,Tinggi,Tinggi,Tinggi
+KALIMANTAN UTARA,2023,4.01,Rendah,Tinggi,Rendah
+SULAWESI UTARA,2023,6.1,Tinggi,Tinggi,Tinggi
+SULAWESI TENGAH,2023,2.95,Rendah,Rendah,Rendah
+SULAWESI SELATAN,2023,4.33,Rendah,Tinggi,Rendah
+SULAWESI TENGGARA,2023,3.15,Rendah,Tinggi,Rendah
+GORONTALO,2023,3.06,Rendah,Rendah,Rendah
+SULAWESI BARAT,2023,2.27,Rendah,Rendah,Rendah
+MALUKU,2023,6.31,Tinggi,Tinggi,Tinggi
+MALUKU UTARA,2023,4.31,Rendah,Tinggi,Rendah
+PAPUA BARAT,2023,5.38,Tinggi,Rendah,Tinggi
+PAPUA,2023,2.67,Rendah,Rendah,Rendah

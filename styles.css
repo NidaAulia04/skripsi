@@ -1,0 +1,362 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Global */
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Gaya Header */
+header {
+    background: linear-gradient(to top, #43bef8b8, #a3e5fbb4);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Gaya Navigasi */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+nav ul li a:focus,
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Bagian Hero */
+.hero {
+    background: #fff;
+    color: #080808;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .container {
+    padding: 0 20px;
+}
+
+.hero h1 {
+    margin: 20px 0;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Tambahkan gaya untuk hero section */
+.hero input[type="text"],
+.hero input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+/* Formulir Pencarian */
+.search-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-form input[type="text"],
+.search-form select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-form .btn,
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search-form .btn:hover,
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Tambahkan gaya untuk tombol search */
+.search-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.search-btn:hover {
+    background-color: #007BFF;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Bagian Fitur */
+.features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 260px;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.feature-item p {
+    font-size: 1.2em;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Bagian Detail Fitur */
+.feature-detail {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-detail h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Gaya Footer */
+footer {
+    background: linear-gradient(to top, #43bef8b8, #a3e5fbb4);
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.feature-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Gaya untuk memusatkan tabel */
+#searchResults table {
+    width: 100%;
+    max-width: 960px; /* Sesuaikan dengan lebar maksimal yang diinginkan */
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#searchResults th,
+#searchResults td {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#searchResults th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+#searchResults tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+#searchResults tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Efek Hover pada Tabel */
+#search-results th,
+    #search-results td {
+        padding: 10px 15px;
+    }
+
+/* Gaya Responsif */
+@media (max-width: 768px) {
+    #search-results th,
+    #search-results td {
+        padding: 10px 15px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        width: 100%;
+    }
+
+    header h1,
+    .hero h1 {
+        font-size: 2em;
+        margin: 20px 0;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    .features .container {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        background: none;
+    }
+
+    .dropdown-content li a {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #search-results th,
+    #search-results td {
+        padding: 8px 10px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    header h1,
+    .hero h1 {
+        font-size: 1.8em;
+        margin: 20px 0;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        padding: 7px 14px;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        background: none;
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi TPT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Klasifikasi TPT</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="naive-bayes.html">Naïve Bayes Classifier</a></li>
+                    <li><a href="svm.html">Support Vector Machine</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Tingkat Pengangguran Terbuka</h1>
+                <input type="text" id="provinceInput" placeholder="Nama Provinsi">
+                <input type="number" id="yearInput" placeholder="Tahun" min="2020" max="2023">
+                <button class="btn search-btn" onclick="submitSearch()">Search</button>
+            </div>
+        </section>
+        </section>
+        <section class="features">
+            <div class="container">
+                <a href="tpt.html" class="feature-link">
+                    <div class="feature-item">
+                        <img src="job.png" alt="Feature 1">
+                        <h3>TPT</h3>
+                        <p>Tingkat Pengangguran Terbuka</p>
+                    </div>
+                </a>
+                <a href="ump.html" class="feature-link">
+                    <div class="feature-item">
+                        <img src="rupiah.png" alt="Feature 2">
+                        <h3>UMP</h3>
+                        <p>Upah Minimum Provinsi</p>
+                    </div>
+                </a>
+                <a href="tpak.html" class="feature-link">
+                <div class="feature-item">
+                    <img src="graph.png" alt="Feature 3">
+                    <h3>TPAK</h3>
+                    <p>Tingkat Partisipasi Angkatan Kerja</p>
+                </div>
+                </a>
+            </div>
+            <a href="see-more.html" class="btn see-more">See More</a>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024</p>
+        </div>
+    </footer>
+    <script>
+        function submitSearch() {
+            var province = document.getElementById("provinceInput").value;
+            var year = document.getElementById("yearInput").value;
+            var url = "search.html?province=" + encodeURIComponent(province) + "&year=" + encodeURIComponent(year);
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>

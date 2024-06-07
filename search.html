@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Klasifikasi TPT</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="naive-bayes.html">Naïve Bayes Classifier</a></li>
+                    <li><a href="svm.html">Support Vector Machine</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Hasil Pencarian untuk Provinsi: <span id="searchedProvince"></span></h2>
+    <div id="searchResults"></div>
+    <p id="tableCaption"></p>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="java.js"></script>
+    <script>
+        function getQueryParams() {
+            var params = {};
+            var queryString = window.location.search.substring(1);
+            var queryArray = queryString.split("&");
+            for (var i = 0; i < queryArray.length; i++) {
+                var pair = queryArray[i].split("=");
+                params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
+            }
+            return params;
+        }
+
+        window.onload = function() {
+            var params = getQueryParams();
+            var province = params['province'];
+            var year = params['year'];
+            search(province, year);
+        }
+    </script>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
